@@ -1,6 +1,20 @@
-# lending-club
+# Lending Club
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
 
-On the given dataset of the Lending Club Case Study, we have conducted our Exploratory Data Analysis and performed the steps as follows: 
+
+## General Information
+On the given dataset of the Lending Club Case Study, we have conducted our Exploratory Data Analysis to find the factors responbile for the risk in loans
+
+## Technologies Used
+- Numpy
+- Pandas
+- Matplolib
+- Seaborn
+
+## Conclusions 
 1. Understanding the data - Our first step was to understand what kind of data has been provided to us. 
 
 2. Cleaning the data  - Next we started with removing the NaN values from the dataset and dropped the columns with only 1 unique value in it, we also extracted the month and year from the date columns, removed the ‘%’ sign from interest rate and revolving utilisation colu
